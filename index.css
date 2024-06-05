@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tab{
+    text-align: right;
+     padding-right: 20px;
+     border-radius: 20px;
+     
+}
+.tab button{
+    border-radius: 30px;
+    background-color: orangered;
+    padding: 5px;
+}
+  .a{
+    padding-left: 535px;
+     
+  }
+  .b{
+    text-align: center;
+  }
+  .c{
+    text-align: center;
+  }
+  .d{
+    text-align: center;
+    padding-top: 10px;
+    
+  }
+  .d button{
+    background-color:black;
+    color: white;
+  }
+  table thead tr .t1{
+    text-align: left;
+    padding-right: 100px;
+    background-color: gray;
+  
+    
+  }
+  table thead  tr .t2{
+    padding-left:3px;
+    background-color: gray;
+  }
+  table thead tr .t1 .t2{
+       
+
+  }
+
+  
+  

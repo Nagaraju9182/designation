@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designation</title>
+    <link rel="stylesheet" href="index.css">
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <div class="designation">
+    <div class="d1">
+    <h1>Designations</h1>
+    </div>
+    <div class="d2">
+       <p> Dashboard / Designation</p>
+         </div>
+    </div> 
+       <br>
+       <div class="tab">
+      <button id="addDesignation"> +addDesignation</button>
+      </div>
+    <div id="formDiv" style="display: none;" class="d3">
+        <form id="formsubmit">
+            <div class="a">
+            <label for="sNo">S.No</label>
+            <input type="text" id="sNo" name="sNo" required>
+            </div>
+            <br>
+            <div class="b">
+                <label for="designation">Designation</label>
+                <input type="text" id="Designation" name="designation" required>
+                </div>
+            <br>
+            <div class="c">
+            <label for="department">Department</label>
+            <input type="text" id="department" name="department" required>
+            <br>
+            </div>
+            <div class="d">
+            <button type="sumbit">sumbit</button>
+            </div>
+        </form>
+    </div>
+
+    <table id="designationTable">
+        <thead>
+            <tr>
+                <th class="t1">#</th>
+                <th class="t1">Designations</th>
+                <th class="t1">Department</th>
+                <th class="t2">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+        </tbody>
+    </table>
+<script src="app.js"></script>
+</div>
+</body>
+</html>
